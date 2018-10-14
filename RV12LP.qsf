@@ -1,0 +1,101 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# Date created = 21:01:17  October 09, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		RV12LP_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C70F896C6
+set_global_assignment -name TOP_LEVEL_ENTITY riscv_top_ahb3lite
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:01:17  OCTOBER 09, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "Design Compiler"
+set_global_assignment -name EDA_INPUT_VCC_NAME VDD -section_id eda_design_synthesis
+set_global_assignment -name EDA_LMF_FILE altsyn.lmf -section_id eda_design_synthesis
+set_global_assignment -name EDA_INPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_design_synthesis
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SYSTEMVERILOG_FILE proc/ahb3lite/riscv_top_ahb3lite.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/ahb3lite/riscv_icache_ahb3lite.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/ahb3lite/biu_ahb3lite.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_wbuf.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_pmpchk.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_pmachk.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_mmu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_memmisaligned.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_membuf.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_imem_ctrl.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/riscv_dmem_ctrl.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/memory/biu_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_noicache_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_icache_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_dext.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_dcache_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ram/rl_ram_1r1w.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ram/rl_ram_1r1w_generic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ram/rl_queue.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_state1.10_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_rv12_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_pma_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_opcodes_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_du_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/biu_constants_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/ex/riscv_mul.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/ex/riscv_lsu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/ex/riscv_div.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/ex/riscv_bu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/ex/riscv_alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_wb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_state1.10.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_rf.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_mem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_if.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_id.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_ex.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_du.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_bp.sv
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/ahb3lite_pkg.sv
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

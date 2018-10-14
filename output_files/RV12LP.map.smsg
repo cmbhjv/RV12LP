@@ -1,0 +1,52 @@
+Warning (10273): Verilog HDL warning at riscv_pmpchk.sv(220): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_pmpchk.sv(229): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at biu_mux.sv(233): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at biu_mux.sv(234): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at biu_mux.sv(235): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at biu_mux.sv(236): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at biu_mux.sv(237): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at biu_mux.sv(238): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at biu_mux.sv(239): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(227): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(228): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(252): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(253): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(261): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(262): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(263): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_noicache_core.sv(264): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_icache_core.sv(783): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_icache_core.sv(800): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_icache_core.sv(805): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_dcache_core.sv(1046): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_dcache_core.sv(1047): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_dcache_core.sv(1054): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_dcache_core.sv(1076): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_dcache_core.sv(1083): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_dcache_core.sv(1084): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_mul.sv(203): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_lsu.sv(194): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_lsu.sv(208): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_lsu.sv(209): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_lsu.sv(261): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_lsu.sv(286): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_div.sv(175): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_div.sv(177): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_div.sv(178): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_div.sv(418): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at riscv_bu.sv(38): object "HAS_RVC" differs only in case from object "has_rvc" in the same scope
+Warning (10273): Verilog HDL warning at riscv_alu.sv(179): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_alu.sv(268): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at riscv_alu.sv(36): object "HAS_RVC" differs only in case from object "has_rvc" in the same scope
+Warning (10273): Verilog HDL warning at riscv_wb.sv(193): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_wb.sv(209): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at riscv_state1.10.sv(39): object "IS_RV32E" differs only in case from object "is_rv32e" in the same scope
+Info (10281): Verilog HDL Declaration information at riscv_state1.10.sv(41): object "HAS_RVC" differs only in case from object "has_rvc" in the same scope
+Info (10281): Verilog HDL Declaration information at riscv_state1.10.sv(42): object "HAS_FPU" differs only in case from object "has_fpu" in the same scope
+Info (10281): Verilog HDL Declaration information at riscv_state1.10.sv(43): object "HAS_MMU" differs only in case from object "has_mmu" in the same scope
+Info (10281): Verilog HDL Declaration information at riscv_state1.10.sv(49): object "HAS_EXT" differs only in case from object "has_ext" in the same scope
+Warning (10273): Verilog HDL warning at riscv_if.sv(257): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_id.sv(417): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at riscv_id.sv(418): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at riscv_id.sv(40): object "XLEN" differs only in case from object "xlen" in the same scope
+Info (10281): Verilog HDL Declaration information at riscv_id.sv(45): object "HAS_FPU" differs only in case from object "has_fpu" in the same scope

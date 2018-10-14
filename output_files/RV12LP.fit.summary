@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Oct 11 00:22:11 2018
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : RV12LP
+Top-level Entity Name : riscv_top_ahb3lite
+Family : Cyclone II
+Device : EP2C70F896C6
+Timing Models : Final
+Total logic elements : 23,148 / 68,416 ( 34 % )
+    Total combinational functions : 22,515 / 68,416 ( 33 % )
+    Dedicated logic registers : 3,921 / 68,416 ( 6 % )
+Total registers : 3921
+Total pins : 458 / 622 ( 74 % )
+Total virtual pins : 0
+Total memory bits : 11,264 / 1,152,000 ( < 1 % )
+Embedded Multiplier 9-bit elements : 8 / 300 ( 3 % )
+Total PLLs : 0 / 4 ( 0 % )
