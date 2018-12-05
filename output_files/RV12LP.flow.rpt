@@ -1,5 +1,5 @@
 Flow report for RV12LP
-Thu Oct 11 00:22:45 2018
+Sat Dec 01 16:50:38 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,20 +40,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 11 00:22:45 2018            ;
+; Flow Status                        ; Successful - Sat Dec 01 16:50:38 2018            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; RV12LP                                           ;
-; Top-level Entity Name              ; riscv_top_ahb3lite                               ;
+; Top-level Entity Name              ; topo                                             ;
 ; Family                             ; Cyclone II                                       ;
 ; Device                             ; EP2C70F896C6                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 23,148 / 68,416 ( 34 % )                         ;
-;     Total combinational functions  ; 22,515 / 68,416 ( 33 % )                         ;
-;     Dedicated logic registers      ; 3,921 / 68,416 ( 6 % )                           ;
-; Total registers                    ; 3921                                             ;
-; Total pins                         ; 458 / 622 ( 74 % )                               ;
+; Total logic elements               ; 23,227 / 68,416 ( 34 % )                         ;
+;     Total combinational functions  ; 22,591 / 68,416 ( 33 % )                         ;
+;     Dedicated logic registers      ; 3,890 / 68,416 ( 6 % )                           ;
+; Total registers                    ; 3890                                             ;
+; Total pins                         ; 232 / 622 ( 37 % )                               ;
 ; Total virtual pins                 ; 0                                                ;
-; Total memory bits                  ; 11,264 / 1,152,000 ( < 1 % )                     ;
+; Total memory bits                  ; 404,480 / 1,152,000 ( 35 % )                     ;
 ; Embedded Multiplier 9-bit elements ; 8 / 300 ( 3 % )                                  ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                                    ;
 +------------------------------------+--------------------------------------------------+
@@ -64,34 +64,39 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/11/2018 00:15:56 ;
+; Start date & time ; 12/01/2018 16:42:28 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; RV12LP              ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                        ;
-+-------------------------------------+---------------------------------------+---------------+--------------------+----------------------+
-; Assignment Name                     ; Value                                 ; Default Value ; Entity Name        ; Section Id           ;
-+-------------------------------------+---------------------------------------+---------------+--------------------+----------------------+
-; COMPILER_SIGNATURE_ID               ; 53214316804218.153922775612132        ; --            ; --                 ; --                   ;
-; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL     ; Design Compiler                       ; <None>        ; --                 ; --                   ;
-; EDA_INPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --                 ; eda_design_synthesis ;
-; EDA_INPUT_VCC_NAME                  ; Vdd                                   ; --            ; --                 ; eda_design_synthesis ;
-; EDA_LMF_FILE                        ; altsyn.lmf                            ; --            ; --                 ; eda_design_synthesis ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --                 ; eda_simulation       ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --                 ; --                   ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --                 ; --                   ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --                 ; --                   ;
-; PARTITION_COLOR                     ; 16764057                              ; --            ; riscv_top_ahb3lite ; Top                  ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; riscv_top_ahb3lite ; Top                  ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; riscv_top_ahb3lite ; Top                  ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --                 ; --                   ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --                 ; --                   ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --                 ; --                   ;
-; TOP_LEVEL_ENTITY                    ; riscv_top_ahb3lite                    ; RV12LP        ; --                 ; --                   ;
-+-------------------------------------+---------------------------------------+---------------+--------------------+----------------------+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                 ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id           ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------------+
+; COMPILER_SIGNATURE_ID               ; 53214316804218.154368974700748        ; --            ; --          ; --                   ;
+; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL     ; Design Compiler                       ; <None>        ; --          ; --                   ;
+; EDA_INPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_design_synthesis ;
+; EDA_INPUT_VCC_NAME                  ; Vdd                                   ; --            ; --          ; eda_design_synthesis ;
+; EDA_LMF_FILE                        ; altsyn.lmf                            ; --            ; --          ; eda_design_synthesis ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --          ; eda_simulation       ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --                   ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                           ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --                   ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --                   ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --                   ;
+; MISC_FILE                           ; memo/rom_inst.v                       ; --            ; --          ; --                   ;
+; MISC_FILE                           ; memo/rom_bb.v                         ; --            ; --          ; --                   ;
+; MISC_FILE                           ; memo/rom.cmp                          ; --            ; --          ; --                   ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; topo        ; Top                  ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; topo        ; Top                  ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; topo        ; Top                  ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --                   ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --                   ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --                   ;
+; TOP_LEVEL_ENTITY                    ; topo                                  ; RV12LP        ; --          ; --                   ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -99,12 +104,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:02:02     ; 1.0                     ; 4728 MB             ; 00:02:01                           ;
-; Fitter                    ; 00:04:10     ; 1.7                     ; 5540 MB             ; 00:06:56                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4677 MB             ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:11     ; 1.0                     ; 4904 MB             ; 00:00:10                           ;
+; Analysis & Synthesis      ; 00:02:28     ; 1.0                     ; 5278 MB             ; 00:02:27                           ;
+; Fitter                    ; 00:05:05     ; 1.6                     ; 5553 MB             ; 00:07:41                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4678 MB             ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:11     ; 1.0                     ; 4982 MB             ; 00:00:10                           ;
 ; EDA Netlist Writer        ; 00:00:11     ; 1.0                     ; 4785 MB             ; 00:00:11                           ;
-; Total                     ; 00:06:38     ; --                      ; --                  ; 00:09:22                           ;
+; Total                     ; 00:07:59     ; --                      ; --                  ; 00:10:33                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

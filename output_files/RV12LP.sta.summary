@@ -3,8 +3,8 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'HCLK'
-Slack : -45.909
-TNS   : -139163.353
+Slack : -43.499
+TNS   : -137589.950
 
 Type  : Slow Model Hold 'HCLK'
 Slack : 0.391
@@ -12,11 +12,11 @@ TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'HCLK'
 Slack : -1.627
-TNS   : -4830.246
+TNS   : -11515.022
 
 Type  : Fast Model Setup 'HCLK'
-Slack : -19.852
-TNS   : -59840.510
+Slack : -18.925
+TNS   : -58601.417
 
 Type  : Fast Model Hold 'HCLK'
 Slack : 0.215
@@ -24,6 +24,6 @@ TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'HCLK'
 Slack : -1.627
-TNS   : -4830.246
+TNS   : -11515.022
 
 ------------------------------------------------------------

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C70F896C6
-set_global_assignment -name TOP_LEVEL_ENTITY riscv_top_ahb3lite
+set_global_assignment -name TOP_LEVEL_ENTITY topo
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:01:17  OCTOBER 09, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -54,6 +54,16 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name SYSTEMVERILOG_FILE memo/ahb3lite_rom1rw.sv
+set_global_assignment -name VERILOG_FILE memo/rom.v
+set_global_assignment -name SYSTEMVERILOG_FILE topo/topo.sv
+set_global_assignment -name SYSTEMVERILOG_FILE memo/ahb3lite_sram1rw.sv
+set_global_assignment -name SYSTEMVERILOG_FILE static/rl_ram_1r1w_generic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE static/rl_ram_1r1w.sv
+set_global_assignment -name SYSTEMVERILOG_FILE static/rl_queue.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/ahb3lite/riscv_top_ahb3lite.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/ahb3lite/riscv_icache_ahb3lite.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/ahb3lite/biu_ahb3lite.sv
@@ -70,9 +80,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_noicache_co
 set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_icache_core.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_dext.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/core/cache/riscv_dcache_core.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ram/rl_ram_1r1w.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ram/rl_ram_1r1w_generic.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ram/rl_queue.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_state1.10_pkg.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_rv12_pkg.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/riscv_pma_pkg.sv
@@ -94,8 +101,7 @@ set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_ex.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_du.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_core.sv
 set_global_assignment -name SYSTEMVERILOG_FILE proc/core/riscv_bp.sv
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name SYSTEMVERILOG_FILE proc/pkg/ahb3lite_pkg.sv
+set_global_assignment -name QIP_FILE memo/rom.qip
+set_global_assignment -name HEX_FILE memo/main.hex
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

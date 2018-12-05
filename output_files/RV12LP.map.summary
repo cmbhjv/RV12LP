@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Thu Oct 11 00:17:59 2018
+Analysis & Synthesis Status : Successful - Sat Dec 01 16:44:58 2018
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : RV12LP
-Top-level Entity Name : riscv_top_ahb3lite
+Top-level Entity Name : topo
 Family : Cyclone II
-Total logic elements : 23,989
-    Total combinational functions : 22,509
-    Dedicated logic registers : 3,921
-Total registers : 3921
-Total pins : 458
+Total logic elements : 24,073
+    Total combinational functions : 22,590
+    Dedicated logic registers : 3,890
+Total registers : 3890
+Total pins : 232
 Total virtual pins : 0
-Total memory bits : 11,264
+Total memory bits : 404,480
 Embedded Multiplier 9-bit elements : 8
 Total PLLs : 0

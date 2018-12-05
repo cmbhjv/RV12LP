@@ -72,40 +72,40 @@ GND                          : A2        : gnd    :                   :         
 GND*                         : A3        :        :                   :         : 3         :                
 VCCIO3                       : A4        : power  :                   : 3.3V    : 3         :                
 GND*                         : A5        :        :                   :         : 3         :                
-dbg_dato[27]                 : A6        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[13]                 : A7        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[5]                  : A8        : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[19]                 : A9        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[5]                  : A10       : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[22]                 : A11       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[2]                  : A12       : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : A6        :        :                   :         : 3         :                
+GND*                         : A7        :        :                   :         : 3         :                
+dbg_dato[10]                 : A8        : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[3]                  : A9        : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[31]                 : A10       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[12]                 : A11       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_addr[4]                  : A12       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : A13       : gnd    :                   :         :           :                
-ins_HRDATA[23]               : A14       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[30]                 : A14       : output : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : A15       : power  :                   : 3.3V    : 3         :                
 VCCIO4                       : A16       : power  :                   : 3.3V    : 4         :                
-dbg_dati[20]                 : A17       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[18]                 : A17       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND                          : A18       : gnd    :                   :         :           :                
-dbg_addr[8]                  : A19       : input  : 3.3-V LVTTL       :         : 4         : N              
-dbg_addr[3]                  : A20       : input  : 3.3-V LVTTL       :         : 4         : N              
-dbg_addr[7]                  : A21       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[10]                 : A19       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[11]                 : A20       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[22]                 : A21       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : A22       :        :                   :         : 4         :                
 GND*                         : A23       :        :                   :         : 4         :                
 GND*                         : A24       :        :                   :         : 4         :                
-ins_HWDATA[18]               : A25       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : A25       :        :                   :         : 4         :                
 GND*                         : A26       :        :                   :         : 4         :                
 VCCIO4                       : A27       : power  :                   : 3.3V    : 4         :                
 GND*                         : A28       :        :                   :         : 4         :                
 GND                          : A29       : gnd    :                   :         :           :                
-dat_HADDR[10]                : AA1       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[2]                 : AA2       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[7]                 : AA3       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[16]                : AA4       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[31]                : AA5       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HWDATA[11]               : AA6       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HWDATA[10]               : AA7       : output : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][26]             : AA1       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][5]              : AA2       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][8]              : AA3       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][3]              : AA4       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][1]              : AA5       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][13]             : AA6       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][18]             : AA7       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AA8       :        :                   :         : 1         :                
 GND*                         : AA9       :        :                   :         : 1         :                
-ins_HWDATA[5]                : AA10      : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : AA10      :        :                   :         : 1         :                
 GND                          : AA11      : gnd    :                   :         :           :                
 GND                          : AA12      : gnd    :                   :         :           :                
 VCCINT                       : AA13      : power  :                   : 1.2V    :           :                
@@ -118,511 +118,511 @@ GND                          : AA19      : gnd    :                   :         
 GND                          : AA20      : gnd    :                   :         :           :                
 GND_PLL4                     : AA21      : gnd    :                   :         :           :                
 GND_PLL4                     : AA22      : gnd    :                   :         :           :                
-pma_adr_i[0][28]             : AA23      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][6]              : AA24      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_cfg_i[2].mem_type[0]     : AA25      : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AA23      :        :                   :         : 6         :                
+GND*                         : AA24      :        :                   :         : 6         :                
+GND*                         : AA25      :        :                   :         : 6         :                
 GND*                         : AA26      :        :                   :         : 6         :                
-ins_HWDATA[9]                : AA27      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[20]               : AA28      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[29]               : AA29      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[8]                : AA30      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HADDR[21]                : AB1       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[11]                : AB2       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : AA27      :        :                   :         : 6         :                
+GND*                         : AA28      :        :                   :         : 6         :                
+GND*                         : AA29      :        :                   :         : 6         :                
+GND*                         : AA30      :        :                   :         : 6         :                
+pma_adr_i[1][7]              : AB1       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][11]             : AB2       : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCIO1                       : AB3       : power  :                   : 3.3V    : 1         :                
 GND                          : AB4       : gnd    :                   :         :           :                
-ins_HWDATA[23]               : AB5       : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : AB6       :        :                   :         : 1         :                
+pma_adr_i[0][26]             : AB5       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][25]             : AB6       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AB7       :        :                   :         : 1         :                
 GND_PLL1                     : AB8       : gnd    :                   :         :           :                
 VCCD_PLL1                    : AB9       : power  :                   : 1.2V    :           :                
 GND                          : AB10      : gnd    :                   :         :           :                
 VCCIO8                       : AB11      : power  :                   : 3.3V    : 8         :                
-pma_adr_i[2][22]             : AB12      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][15]             : AB13      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[0].mem_type[1]     : AB12      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[0].w               : AB13      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND                          : AB14      : gnd    :                   :         :           :                
 VCCIO8                       : AB15      : power  :                   : 3.3V    : 8         :                
 VCCIO7                       : AB16      : power  :                   : 3.3V    : 7         :                
 GND                          : AB17      : gnd    :                   :         :           :                
-pma_adr_i[1][15]             : AB18      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][27]             : AB19      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AB18      :        :                   :         : 7         :                
+GND*                         : AB19      :        :                   :         : 7         :                
 VCCIO7                       : AB20      : power  :                   : 3.3V    : 7         :                
 GND                          : AB21      : gnd    :                   :         :           :                
 VCCD_PLL4                    : AB22      : power  :                   : 1.2V    :           :                
 GND*                         : AB23      :        :                   :         : 6         :                
 GND*                         : AB24      :        :                   :         : 6         :                
-pma_adr_i[0][29]             : AB25      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][1]              : AB26      : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AB25      :        :                   :         : 6         :                
+GND*                         : AB26      :        :                   :         : 6         :                
 GND                          : AB27      : gnd    :                   :         :           :                
 VCCIO6                       : AB28      : power  :                   : 3.3V    : 6         :                
 GND*                         : AB29      :        :                   :         : 6         :                
 GND*                         : AB30      :        :                   :         : 6         :                
-ins_HADDR[11]                : AC1       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[7]                 : AC2       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[22]                : AC3       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[19]                : AC4       : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : AC5       :        :                   :         : 1         :                
-GND*                         : AC6       :        :                   :         : 1         :                
+pma_adr_i[0][2]              : AC1       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_cfg_i[0].r               : AC2       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][10]             : AC3       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][9]              : AC4       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][0]              : AC5       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][17]             : AC6       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AC7       :        :                   :         : 1         :                
 GND_PLL1                     : AC8       : gnd    :                   :         :           :                
 VCCA_PLL1                    : AC9       : power  :                   : 1.2V    :           :                
 GNDA_PLL1                    : AC10      : gnd    :                   :         :           :                
-dat_HWDATA[0]                : AC11      : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[21]                : AC12      : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][17]             : AC13      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][11]             : AC14      : input  : 3.3-V LVTTL       :         : 8         : N              
-ext_int[1]                   : AC15      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[2][14]             : AC16      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[0].w               : AC17      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][11]             : AC18      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][18]             : AC19      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[1].mem_type[0]     : AC20      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[0].r               : AC21      : input  : 3.3-V LVTTL       :         : 7         : N              
+pma_adr_i[2][0]              : AC11      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[1].a[1]            : AC12      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[0].m               : AC13      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_addr[15]                 : AC14      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[1][24]             : AC15      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AC16      :        :                   :         : 7         :                
+GND*                         : AC17      :        :                   :         : 7         :                
+GND*                         : AC18      :        :                   :         : 7         :                
+GND*                         : AC19      :        :                   :         : 7         :                
+GND*                         : AC20      :        :                   :         : 7         :                
+GND*                         : AC21      :        :                   :         : 7         :                
 VCCA_PLL4                    : AC22      : power  :                   : 1.2V    :           :                
 GND*                         : AC23      :        :                   :         : 6         :                
-ins_HWDATA[29]               : AC24      : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AC24      :        :                   :         : 6         :                
 GND*                         : AC25      :        :                   :         : 6         :                
 GND*                         : AC26      :        :                   :         : 6         :                
-pma_adr_i[0][3]              : AC27      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][5]              : AC28      : input  : 3.3-V LVTTL       :         : 6         : N              
-ins_HWDATA[21]               : AC29      : output : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][31]             : AC30      : input  : 3.3-V LVTTL       :         : 6         : N              
-ins_HADDR[29]                : AD1       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HWDATA[1]                : AD2       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HPROT[1]                 : AD3       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[30]                : AD4       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HWDATA[31]               : AD5       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : AC27      :        :                   :         : 6         :                
+GND*                         : AC28      :        :                   :         : 6         :                
+GND*                         : AC29      :        :                   :         : 6         :                
+GND*                         : AC30      :        :                   :         : 6         :                
+pma_adr_i[0][11]             : AD1       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][12]             : AD2       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][14]             : AD3       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][29]             : AD4       : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : AD5       :        :                   :         : 1         :                
 GND*                         : AD6       :        :                   :         : 1         :                
 GND*                         : AD7       :        :                   :         : 1         :                
-ins_HADDR[26]                : AD8       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[13]               : AD9       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[18]               : AD10      : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[28]                : AD11      : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[10]                : AD12      : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][23]             : AD13      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][27]             : AD14      : input  : 3.3-V LVTTL       :         : 8         : N              
-ext_sint                     : AD15      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[2][29]             : AD16      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][9]              : AD17      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][4]              : AD18      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][0]              : AD19      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][20]             : AD20      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[2].w               : AD21      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][20]             : AD22      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AD8       :        :                   :         : 8         :                
+pma_adr_i[2][21]             : AD9       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][13]             : AD10      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[1].a[0]            : AD11      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][1]              : AD12      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[1].mem_type[0]     : AD13      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[2].x               : AD14      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[1][25]             : AD15      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AD16      :        :                   :         : 7         :                
+GND*                         : AD17      :        :                   :         : 7         :                
+GND*                         : AD18      :        :                   :         : 7         :                
+GND*                         : AD19      :        :                   :         : 7         :                
+pma_adr_i[1][30]             : AD20      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AD21      :        :                   :         : 7         :                
+GND*                         : AD22      :        :                   :         : 7         :                
 GNDA_PLL4                    : AD23      : gnd    :                   :         :           :                
 GND*                         : AD24      :        :                   :         : 6         :                
 ~LVDS195p/nCEO~              : AD25      : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : AD26      :        :                   :         : 6         :                
 GND*                         : AD27      :        :                   :         : 6         :                
-pma_adr_i[0][11]             : AD28      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_cfg_i[2].m               : AD29      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_cfg_i[1].r               : AD30      : input  : 3.3-V LVTTL       :         : 6         : N              
-ins_HADDR[5]                 : AE1       : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[8]                 : AE2       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : AD28      :        :                   :         : 6         :                
+GND*                         : AD29      :        :                   :         : 6         :                
+GND*                         : AD30      :        :                   :         : 6         :                
+pma_cfg_i[2].mem_type[0]     : AE1       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_cfg_i[2].r               : AE2       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AE3       :        :                   :         : 1         :                
-ins_HWDATA[17]               : AE4       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : AE4       :        :                   :         : 1         :                
 VCCIO1                       : AE5       : power  :                   : 3.3V    : 1         :                
 GND                          : AE6       : gnd    :                   :         :           :                
 GND*                         : AE7       :        :                   :         : 8         :                
 GND*                         : AE8       :        :                   :         : 8         :                
 GND                          : AE9       : gnd    :                   :         :           :                
 VCCIO8                       : AE10      : power  :                   : 3.3V    : 8         :                
-ins_HADDR[12]                : AE11      : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[24]                : AE12      : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][18]             : AE13      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][22]             : AE11      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][5]              : AE12      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[2].w               : AE13      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND                          : AE14      : gnd    :                   :         :           :                
-dat_HWDATA[30]               : AE15      : output : 3.3-V LVTTL       :         : 8         : N              
-pma_cfg_i[2].a[1]            : AE16      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[2][1]              : AE17      : input  : 3.3-V LVTTL       :         : 7         : N              
+dbg_strb                     : AE15      : input  : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AE16      :        :                   :         : 7         :                
+pma_cfg_i[1].ri              : AE17      : input  : 3.3-V LVTTL       :         : 7         : N              
 GND                          : AE18      : gnd    :                   :         :           :                
-pma_adr_i[1][26]             : AE19      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][25]             : AE20      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AE19      :        :                   :         : 7         :                
+GND*                         : AE20      :        :                   :         : 7         :                
 VCCIO7                       : AE21      : power  :                   : 3.3V    : 7         :                
 GND                          : AE22      : gnd    :                   :         :           :                
-pma_cfg_i[0].mem_type[1]     : AE23      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[1].amo_type[0]     : AE24      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AE23      :        :                   :         : 7         :                
+GND*                         : AE24      :        :                   :         : 7         :                
 GND                          : AE25      : gnd    :                   :         :           :                
 VCCIO6                       : AE26      : power  :                   : 3.3V    : 6         :                
-pma_adr_i[0][26]             : AE27      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][9]              : AE28      : input  : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[26]               : AE29      : output : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][4]              : AE30      : input  : 3.3-V LVTTL       :         : 6         : N              
-GND*                         : AF1       :        :                   :         : 1         :                
-ins_HWRITE                   : AF2       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : AE27      :        :                   :         : 6         :                
+GND*                         : AE28      :        :                   :         : 6         :                
+pma_cfg_i[1].wi              : AE29      : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AE30      :        :                   :         : 6         :                
+pma_adr_i[0][22]             : AF1       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][19]             : AF2       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AF3       :        :                   :         : 1         :                
 GND*                         : AF4       :        :                   :         : 1         :                
 GND                          : AF5       : gnd    :                   :         :           :                
 VCCIO8                       : AF6       : power  :                   : 3.3V    : 8         :                
-ins_HADDR[13]                : AF7       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HADDR[9]                 : AF8       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[2]                : AF9       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HPROT[0]                 : AF10      : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[6]                 : AF11      : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HADDR[15]                : AF12      : output : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[0].x               : AF7       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][18]             : AF8       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][16]             : AF9       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][25]             : AF10      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][12]             : AF11      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][3]              : AF12      : input  : 3.3-V LVTTL       :         : 8         : N              
 VCCIO8                       : AF13      : power  :                   : 3.3V    : 8         :                
-dat_HWDATA[28]               : AF14      : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[19]               : AF15      : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][7]              : AF16      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[1].a[0]            : AF17      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][10]             : AF18      : input  : 3.3-V LVTTL       :         : 7         : N              
+dbg_addr[14]                 : AF14      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_dati[13]                 : AF15      : input  : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AF16      :        :                   :         : 7         :                
+GND*                         : AF17      :        :                   :         : 7         :                
+GND*                         : AF18      :        :                   :         : 7         :                
 VCCIO7                       : AF19      : power  :                   : 3.3V    : 7         :                
-pma_adr_i[1][13]             : AF20      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][24]             : AF21      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[2].mem_type[1]     : AF22      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][15]             : AF23      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][12]             : AF24      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AF20      :        :                   :         : 7         :                
+GND*                         : AF21      :        :                   :         : 7         :                
+GND*                         : AF22      :        :                   :         : 7         :                
+GND*                         : AF23      :        :                   :         : 7         :                
+GND*                         : AF24      :        :                   :         : 7         :                
 VCCIO7                       : AF25      : power  :                   : 3.3V    : 7         :                
 GND                          : AF26      : gnd    :                   :         :           :                
-pma_cfg_i[0].amo_type[0]     : AF27      : input  : 3.3-V LVTTL       :         : 6         : N              
+pma_cfg_i[0].ri              : AF27      : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : AF28      :        :                   :         : 6         :                
-pma_adr_i[0][27]             : AF29      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][10]             : AF30      : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AF29      :        :                   :         : 6         :                
+GND*                         : AF30      :        :                   :         : 6         :                
 VCCIO1                       : AG1       : power  :                   : 3.3V    : 1         :                
-GND*                         : AG2       :        :                   :         : 1         :                
+pma_adr_i[0][21]             : AG2       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AG3       :        :                   :         : 1         :                
 GND*                         : AG4       :        :                   :         : 8         :                
-ins_HWDATA[14]               : AG5       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[1]                 : AG6       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[5]                : AG7       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HADDR[17]                : AG8       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[17]                : AG9       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[27]                : AG10      : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AG5       :        :                   :         : 8         :                
+pma_cfg_i[1].r               : AG6       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][19]             : AG7       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[0][24]             : AG8       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][8]              : AG9       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][10]             : AG10      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND                          : AG11      : gnd    :                   :         :           :                
-pma_adr_i[2][24]             : AG12      : input  : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[7]                : AG13      : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][13]             : AG14      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[1].x               : AG12      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_ack                      : AG13      : output : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[2].mem_type[1]     : AG14      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND+                         : AG15      :        :                   :         : 8         :                
-pma_cfg_i[2].a[0]            : AG16      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[2][3]              : AG17      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][12]             : AG18      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][7]              : AG19      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][8]              : AG20      : input  : 3.3-V LVTTL       :         : 7         : N              
+ext_sint                     : AG16      : input  : 3.3-V LVTTL       :         : 7         : N              
+dbg_addr[6]                  : AG17      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AG18      :        :                   :         : 7         :                
+GND*                         : AG19      :        :                   :         : 7         :                
+GND*                         : AG20      :        :                   :         : 7         :                
 GND                          : AG21      : gnd    :                   :         :           :                
-pma_adr_i[1][21]             : AG22      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][22]             : AG23      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][19]             : AG24      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][18]             : AG25      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[1].mem_type[1]     : AG26      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[1].c               : AG27      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][14]             : AG28      : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AG22      :        :                   :         : 7         :                
+pma_adr_i[0][30]             : AG23      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AG24      :        :                   :         : 7         :                
+GND*                         : AG25      :        :                   :         : 7         :                
+GND*                         : AG26      :        :                   :         : 7         :                
+GND*                         : AG27      :        :                   :         : 7         :                
+GND*                         : AG28      :        :                   :         : 6         :                
 GND*                         : AG29      :        :                   :         : 6         :                
 VCCIO6                       : AG30      : power  :                   : 3.3V    : 6         :                
-pma_cfg_i[2].cc              : AH1       : input  : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : AH2       :        :                   :         : 1         :                
+pma_adr_i[0][23]             : AH1       : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][20]             : AH2       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AH3       :        :                   :         : 8         :                
-ins_HSEL                     : AH4       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HWDATA[8]                : AH5       : output : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][2]              : AH4       : input  : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AH5       :        :                   :         : 8         :                
 GND                          : AH6       : gnd    :                   :         :           :                
-dat_HWDATA[3]                : AH7       : output : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][14]             : AH7       : input  : 3.3-V LVTTL       :         : 8         : N              
 VCCIO8                       : AH8       : power  :                   : 3.3V    : 8         :                
-ins_HADDR[23]                : AH9       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HRESP                    : AH10      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][27]             : AH9       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][6]              : AH10      : input  : 3.3-V LVTTL       :         : 8         : N              
 VCCIO8                       : AH11      : power  :                   : 3.3V    : 8         :                
-pma_adr_i[2][16]             : AH12      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][28]             : AH13      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[1].w               : AH12      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_dati[5]                  : AH13      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND+                         : AH14      :        :                   :         : 8         :                
-pma_adr_i[2][10]             : AH15      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][8]              : AH16      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[2][5]              : AH17      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[1].a[1]            : AH18      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[0].a[1]            : AH19      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][17]             : AH20      : input  : 3.3-V LVTTL       :         : 7         : N              
+dbg_dati[1]                  : AH15      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_dati[4]                  : AH16      : input  : 3.3-V LVTTL       :         : 7         : N              
+ext_int[3]                   : AH17      : input  : 3.3-V LVTTL       :         : 7         : N              
+pma_cfg_i[1].amo_type[0]     : AH18      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AH19      :        :                   :         : 7         :                
+GND*                         : AH20      :        :                   :         : 7         :                
 VCCIO7                       : AH21      : power  :                   : 3.3V    : 7         :                
-pma_adr_i[1][22]             : AH22      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AH22      :        :                   :         : 7         :                
 VCCIO7                       : AH23      : power  :                   : 3.3V    : 7         :                
-pma_adr_i[0][21]             : AH24      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AH24      :        :                   :         : 7         :                
 GND                          : AH25      : gnd    :                   :         :           :                
-pma_adr_i[0][0]              : AH26      : input  : 3.3-V LVTTL       :         : 7         : N              
-dat_HMASTLOCK                : AH27      : output : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][13]             : AH28      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][30]             : AH29      : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[0][8]              : AH30      : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AH26      :        :                   :         : 7         :                
+pma_cfg_i[2].ri              : AH27      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AH28      :        :                   :         : 6         :                
+GND*                         : AH29      :        :                   :         : 6         :                
+GND*                         : AH30      :        :                   :         : 6         :                
 GND                          : AJ1       : gnd    :                   :         :           :                
 GND*                         : AJ2       :        :                   :         : 8         :                
-ins_HBURST[2]                : AJ3       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[25]                : AJ4       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[0]                 : AJ5       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[4]                : AJ6       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HSIZE[1]                 : AJ7       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[20]                : AJ8       : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][0]              : AJ9       : input  : 3.3-V LVTTL       :         : 8         : N              
-ins_HTRANS[0]                : AJ10      : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][21]             : AJ11      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][25]             : AJ12      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][6]              : AJ13      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][12]             : AJ14      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][9]              : AJ15      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][26]             : AJ16      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[2][2]              : AJ17      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[0].m               : AJ18      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][6]              : AJ19      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[0].a[0]            : AJ20      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][1]              : AJ21      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][2]              : AJ22      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][29]             : AJ23      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][23]             : AJ24      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][23]             : AJ25      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[1].w               : AJ26      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][2]              : AJ27      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][17]             : AJ28      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][7]              : AJ29      : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : AJ3       :        :                   :         : 8         :                
+GND*                         : AJ4       :        :                   :         : 8         :                
+pma_adr_i[2][9]              : AJ5       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][17]             : AJ6       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][24]             : AJ7       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][29]             : AJ8       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][26]             : AJ9       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][4]              : AJ10      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[2].a[0]            : AJ11      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[2].m               : AJ12      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_addr[13]                 : AJ13      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_dati[26]                 : AJ14      : input  : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AJ15      :        :                   :         : 8         :                
+GND*                         : AJ16      :        :                   :         : 7         :                
+GND*                         : AJ17      :        :                   :         : 7         :                
+pma_cfg_i[1].cc              : AJ18      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AJ19      :        :                   :         : 7         :                
+GND*                         : AJ20      :        :                   :         : 7         :                
+GND*                         : AJ21      :        :                   :         : 7         :                
+GND*                         : AJ22      :        :                   :         : 7         :                
+GND*                         : AJ23      :        :                   :         : 7         :                
+GND*                         : AJ24      :        :                   :         : 7         :                
+GND*                         : AJ25      :        :                   :         : 7         :                
+GND*                         : AJ26      :        :                   :         : 7         :                
+GND*                         : AJ27      :        :                   :         : 7         :                
+GND*                         : AJ28      :        :                   :         : 7         :                
+GND*                         : AJ29      :        :                   :         : 6         :                
 GND                          : AJ30      : gnd    :                   :         :           :                
 GND                          : AK2       : gnd    :                   :         :           :                
 GND*                         : AK3       :        :                   :         : 8         :                
 VCCIO8                       : AK4       : power  :                   : 3.3V    : 8         :                
-ins_HREADY                   : AK5       : input  : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[6]                : AK6       : output : 3.3-V LVTTL       :         : 8         : N              
-dat_HWDATA[27]               : AK7       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HADDR[18]                : AK8       : output : 3.3-V LVTTL       :         : 8         : N              
-ins_HTRANS[1]                : AK9       : output : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][19]             : AK10      : input  : 3.3-V LVTTL       :         : 8         : N              
-pma_adr_i[2][20]             : AK11      : input  : 3.3-V LVTTL       :         : 8         : N              
-dat_HREADY                   : AK12      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][20]             : AK5       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][15]             : AK6       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][23]             : AK7       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][28]             : AK8       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][7]              : AK9       : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_adr_i[2][11]             : AK10      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[2].a[1]            : AK11      : input  : 3.3-V LVTTL       :         : 8         : N              
+pma_cfg_i[1].m               : AK12      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND                          : AK13      : gnd    :                   :         :           :                
-pma_adr_i[2][4]              : AK14      : input  : 3.3-V LVTTL       :         : 8         : N              
+dbg_dati[25]                 : AK14      : input  : 3.3-V LVTTL       :         : 8         : N              
 VCCIO8                       : AK15      : power  :                   : 3.3V    : 8         :                
 VCCIO7                       : AK16      : power  :                   : 3.3V    : 7         :                
-pma_cfg_i[2].x               : AK17      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AK17      :        :                   :         : 7         :                
 GND                          : AK18      : gnd    :                   :         :           :                
-pma_adr_i[1][3]              : AK19      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][5]              : AK20      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][14]             : AK21      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][16]             : AK22      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][19]             : AK23      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[1][28]             : AK24      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_cfg_i[0].x               : AK25      : input  : 3.3-V LVTTL       :         : 7         : N              
-pma_adr_i[0][24]             : AK26      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AK19      :        :                   :         : 7         :                
+GND*                         : AK20      :        :                   :         : 7         :                
+GND*                         : AK21      :        :                   :         : 7         :                
+GND*                         : AK22      :        :                   :         : 7         :                
+GND*                         : AK23      :        :                   :         : 7         :                
+GND*                         : AK24      :        :                   :         : 7         :                
+GND*                         : AK25      :        :                   :         : 7         :                
+GND*                         : AK26      :        :                   :         : 7         :                
 VCCIO7                       : AK27      : power  :                   : 3.3V    : 7         :                
-pma_adr_i[0][16]             : AK28      : input  : 3.3-V LVTTL       :         : 7         : N              
+pma_adr_i[2][30]             : AK28      : input  : 3.3-V LVTTL       :         : 7         : N              
 GND                          : AK29      : gnd    :                   :         :           :                
 GND                          : B1        : gnd    :                   :         :           :                
 GND*                         : B2        :        :                   :         : 2         :                
 GND*                         : B3        :        :                   :         : 3         :                
 GND*                         : B4        :        :                   :         : 3         :                
-dbg_dati[18]                 : B5        : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[23]                 : B6        : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[3]                  : B7        : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[9]                  : B8        : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[25]                 : B9        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[14]                 : B10       : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[7]                  : B11       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[6]                  : B12       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[18]               : B13       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[19]               : B14       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[22]               : B15       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[16]               : B16       : input  : 3.3-V LVTTL       :         : 4         : N              
-dbg_stall                    : B17       : input  : 3.3-V LVTTL       :         : 4         : N              
-dbg_dati[12]                 : B18       : input  : 3.3-V LVTTL       :         : 4         : N              
-dbg_dati[22]                 : B19       : input  : 3.3-V LVTTL       :         : 4         : N              
-dbg_addr[10]                 : B20       : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : B5        :        :                   :         : 3         :                
+GND*                         : B6        :        :                   :         : 3         :                
+GND*                         : B7        :        :                   :         : 3         :                
+dbg_dato[24]                 : B8        : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[7]                  : B9        : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[20]                 : B10       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[16]                 : B11       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_addr[2]                  : B12       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[19]                 : B13       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[15]                 : B14       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[2]                  : B15       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[9]                  : B16       : output : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[3]                  : B17       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[8]                  : B18       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[31]                 : B19       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[19]                 : B20       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : B21       :        :                   :         : 4         :                
-ext_int[0]                   : B22       : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : B22       :        :                   :         : 4         :                
 GND*                         : B23       :        :                   :         : 4         :                
-ins_HWDATA[12]               : B24       : output : 3.3-V LVTTL       :         : 4         : N              
-pma_cfg_i[0].wi              : B25       : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : B24       :        :                   :         : 4         :                
+GND*                         : B25       :        :                   :         : 4         :                
 GND*                         : B26       :        :                   :         : 4         :                
-ins_HWDATA[30]               : B27       : output : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : B28       :        :                   :         : 4         :                
+GND*                         : B27       :        :                   :         : 4         :                
+pma_cfg_i[2].wi              : B28       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : B29       :        :                   :         : 4         :                
 GND                          : B30       : gnd    :                   :         :           :                
 GND*                         : C1        :        :                   :         : 2         :                
 GND*                         : C2        :        :                   :         : 2         :                
-pma_cfg_i[0].amo_type[1]     : C3        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : C3        :        :                   :         : 2         :                
 GND*                         : C4        :        :                   :         : 3         :                
-pma_cfg_i[1].ri              : C5        : input  : 3.3-V LVTTL       :         : 3         : N              
+pma_cfg_i[1].c               : C5        : input  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : C6        : gnd    :                   :         :           :                
-dbg_dati[29]                 : C7        : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : C7        :        :                   :         : 3         :                
 VCCIO3                       : C8        : power  :                   : 3.3V    : 3         :                
-dbg_dato[11]                 : C9        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[12]                 : C10       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[14]                 : C9        : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[1]                  : C10       : output : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : C11       : power  :                   : 3.3V    : 3         :                
-dbg_addr[15]                 : C12       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[25]               : C13       : input  : 3.3-V LVTTL       :         : 3         : N              
-dat_HADDR[23]                : C14       : output : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[28]               : C15       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[31]               : C16       : input  : 3.3-V LVTTL       :         : 4         : N              
-ext_tint                     : C17       : input  : 3.3-V LVTTL       :         : 4         : N              
-dat_HWDATA[31]               : C18       : output : 3.3-V LVTTL       :         : 4         : N              
-ins_HRDATA[1]                : C19       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dato[21]                 : C12       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[27]                 : C13       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[10]                 : C14       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[26]                 : C15       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[23]                 : C16       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[7]                  : C17       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[7]                  : C18       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[5]                  : C19       : input  : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : C20       : power  :                   : 3.3V    : 4         :                
 GND*                         : C21       :        :                   :         : 4         :                
 GND*                         : C22       :        :                   :         : 4         :                
 VCCIO4                       : C23       : power  :                   : 3.3V    : 4         :                
 GND*                         : C24       :        :                   :         : 4         :                
 GND                          : C25       : gnd    :                   :         :           :                
-ins_HWDATA[4]                : C26       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : C26       :        :                   :         : 4         :                
 GND*                         : C27       :        :                   :         : 4         :                
-ins_HWDATA[20]               : C28       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : C28       :        :                   :         : 4         :                
 GND*                         : C29       :        :                   :         : 5         :                
-GND*                         : C30       :        :                   :         : 5         :                
+pma_cfg_i[2].amo_type[0]     : C30       : input  : 3.3-V LVTTL       :         : 5         : N              
 VCCIO2                       : D1        : power  :                   : 3.3V    : 2         :                
-ins_HWDATA[11]               : D2        : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : D2        :        :                   :         : 2         :                
 GND*                         : D3        :        :                   :         : 2         :                
 GND*                         : D4        :        :                   :         : 3         :                
 GND*                         : D5        :        :                   :         : 3         :                
-dbg_dati[31]                 : D6        : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[28]                 : D7        : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_bp                       : D8        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[30]                 : D9        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[13]                 : D10       : input  : 3.3-V LVTTL       :         : 3         : N              
+pma_cfg_i[0].cc              : D6        : input  : 3.3-V LVTTL       :         : 3         : N              
+ext_int[2]                   : D7        : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : D8        :        :                   :         : 3         :                
+GND*                         : D9        :        :                   :         : 3         :                
+dbg_addr[1]                  : D10       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : D11       : gnd    :                   :         :           :                
-dbg_strb                     : D12       : input  : 3.3-V LVTTL       :         : 3         : N              
-ext_nmi                      : D13       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[17]               : D14       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[26]               : D15       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[8]                  : D12       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[6]                  : D13       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[0]                  : D14       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[8]                  : D15       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : D16       :        :                   :         : 4         :                
-dat_HWDATA[12]               : D17       : output : 3.3-V LVTTL       :         : 4         : N              
-ins_HRDATA[6]                : D18       : input  : 3.3-V LVTTL       :         : 4         : N              
-dat_HADDR[1]                 : D19       : output : 3.3-V LVTTL       :         : 4         : N              
+dbg_dato[5]                  : D17       : output : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[30]                 : D18       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[9]                  : D19       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND                          : D20       : gnd    :                   :         :           :                
 GND*                         : D21       :        :                   :         : 4         :                
-ins_HPROT[2]                 : D22       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : D22       :        :                   :         : 4         :                
 GND*                         : D23       :        :                   :         : 4         :                
-ins_HWDATA[24]               : D24       : output : 3.3-V LVTTL       :         : 4         : N              
-pma_adr_i[1][30]             : D25       : input  : 3.3-V LVTTL       :         : 4         : N              
-ins_HWDATA[19]               : D26       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : D24       :        :                   :         : 4         :                
+GND*                         : D25       :        :                   :         : 4         :                
+GND*                         : D26       :        :                   :         : 4         :                
 GND*                         : D27       :        :                   :         : 4         :                
 GND*                         : D28       :        :                   :         : 5         :                
 GND*                         : D29       :        :                   :         : 5         :                
 VCCIO5                       : D30       : power  :                   : 3.3V    : 5         :                
-dbg_dato[9]                  : E1        : output : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[5]                  : E2        : output : 3.3-V LVTTL       :         : 2         : N              
-pma_adr_i[2][30]             : E3        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : E1        :        :                   :         : 2         :                
+GND*                         : E2        :        :                   :         : 2         :                
+pma_cfg_i[2].c               : E3        : input  : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : E4        :        :                   :         : 2         :                
 GND                          : E5        : gnd    :                   :         :           :                
 VCCIO3                       : E6        : power  :                   : 3.3V    : 3         :                
 GND*                         : E7        :        :                   :         : 3         :                
-ins_HWDATA[25]               : E8        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[10]                 : E9        : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[20]                 : E10       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[4]                  : E11       : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[24]                 : E12       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[9]                  : E13       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[24]               : E14       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[21]               : E15       : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : E8        :        :                   :         : 3         :                
+GND*                         : E9        :        :                   :         : 3         :                
+pma_cfg_i[0].amo_type[0]     : E10       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[14]                 : E11       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[13]                 : E12       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_bp                       : E13       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[11]                 : E14       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[15]                 : E15       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : E16       :        :                   :         : 4         :                
-dat_HPROT[0]                 : E17       : output : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[9]                  : E17       : input  : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : E18       : power  :                   : 3.3V    : 4         :                
-GND*                         : E19       :        :                   :         : 4         :                
+dbg_stall                    : E19       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : E20       :        :                   :         : 4         :                
 GND*                         : E21       :        :                   :         : 4         :                
 GND*                         : E22       :        :                   :         : 4         :                
-ins_HWDATA[27]               : E23       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : E23       :        :                   :         : 4         :                
 GND*                         : E24       :        :                   :         : 4         :                
 VCCIO4                       : E25       : power  :                   : 3.3V    : 4         :                
 GND                          : E26       : gnd    :                   :         :           :                
-ins_HWDATA[7]                : E27       : output : 3.3-V LVTTL       :         : 5         : N              
-ins_HWDATA[13]               : E28       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : E27       :        :                   :         : 5         :                
+GND*                         : E28       :        :                   :         : 5         :                
 GND*                         : E29       :        :                   :         : 5         :                
 GND*                         : E30       :        :                   :         : 5         :                
-dbg_dato[6]                  : F1        : output : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[6]                : F2        : input  : 3.3-V LVTTL       :         : 2         : N              
-ins_HWDATA[28]               : F3        : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : F1        :        :                   :         : 2         :                
+GND*                         : F2        :        :                   :         : 2         :                
+GND*                         : F3        :        :                   :         : 2         :                
 GND*                         : F4        :        :                   :         : 2         :                
 VCCIO2                       : F5        : power  :                   : 3.3V    : 2         :                
 GND                          : F6        : gnd    :                   :         :           :                
-pma_cfg_i[2].c               : F7        : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : F7        :        :                   :         : 3         :                
 GND*                         : F8        :        :                   :         : 3         :                
 GND                          : F9        : gnd    :                   :         :           :                
 VCCIO3                       : F10       : power  :                   : 3.3V    : 3         :                
-dat_HRDATA[15]               : F11       : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_ack                      : F12       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[12]                 : F13       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[11]                 : F11       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[17]                 : F12       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[28]                 : F13       : output : 3.3-V LVTTL       :         : 3         : N              
 GND                          : F14       : gnd    :                   :         :           :                
 VCCIO3                       : F15       : power  :                   : 3.3V    : 3         :                
-dat_HTRANS[0]                : F16       : output : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[0]                  : F16       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND                          : F17       : gnd    :                   :         :           :                
-ins_HRDATA[9]                : F18       : input  : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : F19       :        :                   :         : 4         :                
-ins_HBURST[1]                : F20       : output : 3.3-V LVTTL       :         : 4         : N              
+ext_int[1]                   : F18       : input  : 3.3-V LVTTL       :         : 4         : N              
+ext_nmi                      : F19       : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : F20       :        :                   :         : 4         :                
 VCCIO4                       : F21       : power  :                   : 3.3V    : 4         :                
 GND                          : F22       : gnd    :                   :         :           :                
 GND*                         : F23       :        :                   :         : 4         :                
-ins_HBURST[0]                : F24       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : F24       :        :                   :         : 4         :                
 GND                          : F25       : gnd    :                   :         :           :                
 VCCIO5                       : F26       : power  :                   : 3.3V    : 5         :                
 GND*                         : F27       :        :                   :         : 5         :                
 GND*                         : F28       :        :                   :         : 5         :                
 GND*                         : F29       :        :                   :         : 5         :                
 GND*                         : F30       :        :                   :         : 5         :                
-dat_HRDATA[10]               : G1        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[2]                : G2        : input  : 3.3-V LVTTL       :         : 2         : N              
-ext_int[2]                   : G3        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : G1        :        :                   :         : 2         :                
+GND*                         : G2        :        :                   :         : 2         :                
+GND*                         : G3        :        :                   :         : 2         :                
 GND*                         : G4        :        :                   :         : 2         :                
 GND*                         : G5        :        :                   :         : 2         :                
-GND*                         : G6        :        :                   :         : 2         :                
+pma_cfg_i[0].c               : G6        : input  : 3.3-V LVTTL       :         : 2         : N              
 ~ASDO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : G7        : input  : 3.3-V LVTTL       :         : 2         : N              
 GNDA_PLL3                    : G8        : gnd    :                   :         :           :                
-GND*                         : G9        :        :                   :         : 3         :                
-dat_HPROT[2]                 : G10       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dati[11]                 : G11       : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[1]                  : G12       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_we                       : G13       : input  : 3.3-V LVTTL       :         : 3         : N              
-ins_HRDATA[4]                : G14       : input  : 3.3-V LVTTL       :         : 3         : N              
+pma_adr_i[2][31]             : G9        : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : G10       :        :                   :         : 3         :                
+GND*                         : G11       :        :                   :         : 3         :                
+dbg_dato[4]                  : G12       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[18]                 : G13       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[22]                 : G14       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : G15       :        :                   :         : 3         :                
-ext_int[3]                   : G16       : input  : 3.3-V LVTTL       :         : 4         : N              
-ins_HRDATA[0]                : G17       : input  : 3.3-V LVTTL       :         : 4         : N              
-ins_HRDATA[8]                : G18       : input  : 3.3-V LVTTL       :         : 4         : N              
-dat_HBURST[0]                : G19       : output : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[3]                  : G16       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[2]                  : G17       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[29]                 : G18       : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : G19       :        :                   :         : 4         :                
 GND*                         : G20       :        :                   :         : 4         :                
-dat_HBURST[1]                : G21       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : G21       :        :                   :         : 4         :                
 GND*                         : G22       :        :                   :         : 4         :                
 GNDA_PLL2                    : G23       : gnd    :                   :         :           :                
-ins_HWDATA[1]                : G24       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : G24       :        :                   :         : 5         :                
 GND*                         : G25       :        :                   :         : 5         :                
-pma_cfg_i[1].cc              : G26       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : G26       :        :                   :         : 5         :                
 GND*                         : G27       :        :                   :         : 5         :                
-pma_cfg_i[0].ri              : G28       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : G28       :        :                   :         : 5         :                
 GND*                         : G29       :        :                   :         : 5         :                
-pma_adr_i[1][31]             : G30       : input  : 3.3-V LVTTL       :         : 5         : N              
-dat_HRDATA[1]                : H1        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[21]                 : H2        : output : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[14]               : H3        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[7]                : H4        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : G30       :        :                   :         : 5         :                
+GND*                         : H1        :        :                   :         : 2         :                
+GND*                         : H2        :        :                   :         : 2         :                
+GND*                         : H3        :        :                   :         : 2         :                
+GND*                         : H4        :        :                   :         : 2         :                
 GND*                         : H5        :        :                   :         : 2         :                
 GND*                         : H6        :        :                   :         : 2         :                
 GND*                         : H7        :        :                   :         : 2         :                
 GND*                         : H8        :        :                   :         : 2         :                
 VCCA_PLL3                    : H9        : power  :                   : 1.2V    :           :                
-pma_cfg_i[1].amo_type[1]     : H10       : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[3]                  : H11       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[4]                  : H12       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_dato[26]                 : H13       : output : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[1]                  : H14       : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : H10       :        :                   :         : 3         :                
+dbg_dati[17]                 : H11       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[20]                 : H12       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_addr[12]                 : H13       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[25]                 : H14       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : H15       :        :                   :         : 3         :                
-dbg_addr[11]                 : H16       : input  : 3.3-V LVTTL       :         : 4         : N              
-ins_HRDATA[12]               : H17       : input  : 3.3-V LVTTL       :         : 4         : N              
-ins_HRDATA[3]                : H18       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_addr[0]                  : H16       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[21]                 : H17       : input  : 3.3-V LVTTL       :         : 4         : N              
+dbg_dati[6]                  : H18       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : H19       :        :                   :         : 4         :                
 GND*                         : H20       :        :                   :         : 4         :                
-ins_HSIZE[0]                 : H21       : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : H21       :        :                   :         : 4         :                
 VCCA_PLL2                    : H22       : power  :                   : 1.2V    :           :                
-GND*                         : H23       :        :                   :         : 5         :                
+ext_int[0]                   : H23       : input  : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : H24       :        :                   :         : 5         :                
 GND*                         : H25       :        :                   :         : 5         :                
-GND*                         : H26       :        :                   :         : 5         :                
-ins_HMASTLOCK                : H27       : output : 3.3-V LVTTL       :         : 5         : N              
-dat_HSIZE[2]                 : H28       : output : 3.3-V LVTTL       :         : 5         : N              
-GND*                         : H29       :        :                   :         : 5         :                
-ins_HWDATA[0]                : H30       : output : 3.3-V LVTTL       :         : 5         : N              
-dbg_dati[14]                 : J1        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[18]               : J2        : input  : 3.3-V LVTTL       :         : 2         : N              
+pma_cfg_i[0].amo_type[1]     : H26       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : H27       :        :                   :         : 5         :                
+GND*                         : H28       :        :                   :         : 5         :                
+pma_cfg_i[2].cc              : H29       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : H30       :        :                   :         : 5         :                
+GND*                         : J1        :        :                   :         : 2         :                
+pma_cfg_i[2].amo_type[1]     : J2        : input  : 3.3-V LVTTL       :         : 2         : N              
 VCCIO2                       : J3        : power  :                   : 3.3V    : 2         :                
 GND                          : J4        : gnd    :                   :         :           :                
-dbg_dato[14]                 : J5        : output : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[21]                 : J6        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[23]                 : J7        : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : J5        :        :                   :         : 2         :                
+GND*                         : J6        :        :                   :         : 2         :                
+GND*                         : J7        :        :                   :         : 2         :                
 GND_PLL3                     : J8        : gnd    :                   :         :           :                
 VCCD_PLL3                    : J9        : power  :                   : 1.2V    :           :                
 GND                          : J10       : gnd    :                   :         :           :                
 VCCIO3                       : J11       : power  :                   : 3.3V    : 3         :                
-dbg_dati[16]                 : J12       : input  : 3.3-V LVTTL       :         : 3         : N              
-dbg_addr[13]                 : J13       : input  : 3.3-V LVTTL       :         : 3         : N              
+dbg_dato[27]                 : J12       : output : 3.3-V LVTTL       :         : 3         : N              
+dbg_dati[28]                 : J13       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : J14       : gnd    :                   :         :           :                
 VCCIO3                       : J15       : power  :                   : 3.3V    : 3         :                
 VCCIO4                       : J16       : power  :                   : 3.3V    : 4         :                
 GND                          : J17       : gnd    :                   :         :           :                
-ins_HRDATA[15]               : J18       : input  : 3.3-V LVTTL       :         : 4         : N              
-ins_HPROT[3]                 : J19       : output : 3.3-V LVTTL       :         : 4         : N              
+ext_tint                     : J18       : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : J19       :        :                   :         : 4         :                
 VCCIO4                       : J20       : power  :                   : 3.3V    : 4         :                
 GND                          : J21       : gnd    :                   :         :           :                
 VCCD_PLL2                    : J22       : power  :                   : 1.2V    :           :                
@@ -632,16 +632,16 @@ GND*                         : J25       :        :                   :         
 GND*                         : J26       :        :                   :         : 5         :                
 GND                          : J27       : gnd    :                   :         :           :                
 VCCIO5                       : J28       : power  :                   : 3.3V    : 5         :                
-ins_HWDATA[26]               : J29       : output : 3.3-V LVTTL       :         : 5         : N              
-ins_HWDATA[6]                : J30       : output : 3.3-V LVTTL       :         : 5         : N              
-dat_HRDATA[9]                : K1        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[13]               : K2        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[31]                 : K3        : output : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[0]                  : K4        : output : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[25]                 : K5        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[3]                : K6        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[15]                 : K7        : output : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[28]                 : K8        : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : J29       :        :                   :         : 5         :                
+GND*                         : J30       :        :                   :         : 5         :                
+GND*                         : K1        :        :                   :         : 2         :                
+GND*                         : K2        :        :                   :         : 2         :                
+GND*                         : K3        :        :                   :         : 2         :                
+GND*                         : K4        :        :                   :         : 2         :                
+GND*                         : K5        :        :                   :         : 2         :                
+GND*                         : K6        :        :                   :         : 2         :                
+GND*                         : K7        :        :                   :         : 2         :                
+GND*                         : K8        :        :                   :         : 2         :                
 ~nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : K9        : input  : 3.3-V LVTTL       :         : 2         : N              
 GND_PLL3                     : K10       : gnd    :                   :         :           :                
 GND                          : K11       : gnd    :                   :         :           :                
@@ -656,24 +656,24 @@ GND                          : K19       : gnd    :                   :         
 GND                          : K20       : gnd    :                   :         :           :                
 GND_PLL2                     : K21       : gnd    :                   :         :           :                
 GND_PLL2                     : K22       : gnd    :                   :         :           :                
-pma_cfg_i[1].wi              : K23       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : K23       :        :                   :         : 5         :                
 GND*                         : K24       :        :                   :         : 5         :                
-pma_cfg_i[0].cc              : K25       : input  : 3.3-V LVTTL       :         : 5         : N              
-dat_HPROT[3]                 : K26       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : K25       :        :                   :         : 5         :                
+GND*                         : K26       :        :                   :         : 5         :                
 GND*                         : K27       :        :                   :         : 5         :                
 GND*                         : K28       :        :                   :         : 5         :                
 GND*                         : K29       :        :                   :         : 5         :                
 GND*                         : K30       :        :                   :         : 5         :                
-dat_HRDATA[30]               : L1        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[29]               : L2        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[23]               : L3        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[10]                 : L4        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[0]                : L5        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[2]                  : L6        : output : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[2]                  : L7        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[29]                 : L8        : output : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[5]                : L9        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[4]                : L10       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : L1        :        :                   :         : 2         :                
+GND*                         : L2        :        :                   :         : 2         :                
+GND*                         : L3        :        :                   :         : 2         :                
+GND*                         : L4        :        :                   :         : 2         :                
+GND*                         : L5        :        :                   :         : 2         :                
+GND*                         : L6        :        :                   :         : 2         :                
+GND*                         : L7        :        :                   :         : 2         :                
+GND*                         : L8        :        :                   :         : 2         :                
+GND*                         : L9        :        :                   :         : 2         :                
+GND*                         : L10       :        :                   :         : 2         :                
 VCCIO2                       : L11       : power  :                   : 3.3V    : 2         :                
 GND                          : L12       : gnd    :                   :         :           :                
 VCCINT                       : L13       : power  :                   : 1.2V    :           :                
@@ -688,22 +688,22 @@ GND*                         : L21       :        :                   :         
 GND*                         : L22       :        :                   :         : 5         :                
 GND                          : L23       : gnd    :                   :         :           :                
 GND*                         : L24       :        :                   :         : 5         :                
-dat_HBURST[2]                : L25       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : L25       :        :                   :         : 5         :                
 GND*                         : L26       :        :                   :         : 5         :                
 GND*                         : L27       :        :                   :         : 5         :                
 GND*                         : L28       :        :                   :         : 5         :                
 GND*                         : L29       :        :                   :         : 5         :                
-pma_cfg_i[0].c               : L30       : input  : 3.3-V LVTTL       :         : 5         : N              
-dat_HRDATA[16]               : M1        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[19]               : M2        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[24]               : M3        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[15]                 : M4        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[25]               : M5        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[26]                 : M6        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[24]                 : M7        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[8]                  : M8        : output : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[27]               : M9        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[27]                 : M10       : input  : 3.3-V LVTTL       :         : 2         : N              
+pma_adr_i[1][31]             : L30       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : M1        :        :                   :         : 2         :                
+GND*                         : M2        :        :                   :         : 2         :                
+GND*                         : M3        :        :                   :         : 2         :                
+GND*                         : M4        :        :                   :         : 2         :                
+GND*                         : M5        :        :                   :         : 2         :                
+GND*                         : M6        :        :                   :         : 2         :                
+GND*                         : M7        :        :                   :         : 2         :                
+GND*                         : M8        :        :                   :         : 2         :                
+GND*                         : M9        :        :                   :         : 2         :                
+dbg_dato[23]                 : M10       : output : 3.3-V LVTTL       :         : 2         : N              
 GND                          : M11       : gnd    :                   :         :           :                
 VCCINT                       : M12       : power  :                   : 1.2V    :           :                
 VCCINT                       : M13       : power  :                   : 1.2V    :           :                
@@ -719,21 +719,21 @@ GND*                         : M22       :        :                   :         
 GND*                         : M23       :        :                   :         : 5         :                
 GND*                         : M24       :        :                   :         : 5         :                
 GND*                         : M25       :        :                   :         : 5         :                
-ins_HWDATA[16]               : M26       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : M26       :        :                   :         : 5         :                
 GND*                         : M27       :        :                   :         : 5         :                
 GND*                         : M28       :        :                   :         : 5         :                
 GND*                         : M29       :        :                   :         : 5         :                
 GND*                         : M30       :        :                   :         : 5         :                
 GND                          : N1        : gnd    :                   :         :           :                
-dbg_dati[7]                  : N2        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[31]               : N3        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[26]               : N4        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : N2        :        :                   :         : 2         :                
+GND*                         : N3        :        :                   :         : 2         :                
+GND*                         : N4        :        :                   :         : 2         :                
 VCCIO2                       : N5        : power  :                   : 3.3V    : 2         :                
 GND                          : N6        : gnd    :                   :         :           :                
-dat_HRDATA[11]               : N7        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[12]               : N8        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[20]               : N9        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dati[30]                 : N10       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : N7        :        :                   :         : 2         :                
+GND*                         : N8        :        :                   :         : 2         :                
+GND*                         : N9        :        :                   :         : 2         :                
+dbg_dato[29]                 : N10       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCINT                       : N11       : power  :                   : 1.2V    :           :                
 VCCINT                       : N12       : power  :                   : 1.2V    :           :                
 GND                          : N13       : gnd    :                   :         :           :                
@@ -754,15 +754,15 @@ VCCIO5                       : N27       : power  :                   : 3.3V    
 GND*                         : N28       :        :                   :         : 5         :                
 GND*                         : N29       :        :                   :         : 5         :                
 GND                          : N30       : gnd    :                   :         :           :                
-dbg_dato[16]                 : P1        : output : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[18]                 : P2        : output : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[21]               : P3        : input  : 3.3-V LVTTL       :         : 2         : N              
-dbg_dato[17]                 : P4        : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : P1        :        :                   :         : 2         :                
+GND*                         : P2        :        :                   :         : 2         :                
+dbg_dati[12]                 : P3        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : P4        :        :                   :         : 2         :                
 TCK                          : P5        : input  :                   :         : 2         :                
-dat_HRDATA[17]               : P6        : input  : 3.3-V LVTTL       :         : 2         : N              
-dat_HRDATA[22]               : P7        : input  : 3.3-V LVTTL       :         : 2         : N              
+dbg_dati[24]                 : P6        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : P7        :        :                   :         : 2         :                
 TDI                          : P8        : input  :                   :         : 2         :                
-dat_HRDATA[28]               : P9        : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : P9        :        :                   :         : 2         :                
 GND                          : P10       : gnd    :                   :         :           :                
 VCCINT                       : P11       : power  :                   : 1.2V    :           :                
 VCCINT                       : P12       : power  :                   : 1.2V    :           :                
@@ -775,11 +775,11 @@ GND                          : P18       : gnd    :                   :         
 VCCINT                       : P19       : power  :                   : 1.2V    :           :                
 VCCINT                       : P20       : power  :                   : 1.2V    :           :                
 GND                          : P21       : gnd    :                   :         :           :                
-GND*                         : P22       :        :                   :         : 5         :                
-GND*                         : P23       :        :                   :         : 5         :                
-GND*                         : P24       :        :                   :         : 5         :                
-ins_HSIZE[2]                 : P25       : output : 3.3-V LVTTL       :         : 5         : N              
-dbg_dati[19]                 : P26       : input  : 3.3-V LVTTL       :         : 5         : N              
+pma_cfg_i[1].amo_type[1]     : P22       : input  : 3.3-V LVTTL       :         : 5         : N              
+dbg_dati[16]                 : P23       : input  : 3.3-V LVTTL       :         : 5         : N              
+pma_cfg_i[0].wi              : P24       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : P25       :        :                   :         : 5         :                
+GND*                         : P26       :        :                   :         : 5         :                
 GND*                         : P27       :        :                   :         : 5         :                
 GND*                         : P28       :        :                   :         : 5         :                
 GND*                         : P29       :        :                   :         : 5         :                
@@ -809,20 +809,20 @@ GND*                         : R22       :        :                   :         
 GND*                         : R23       :        :                   :         : 5         :                
 GND*                         : R24       :        :                   :         : 5         :                
 GND*                         : R25       :        :                   :         : 5         :                
-ins_HWDATA[15]               : R26       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : R26       :        :                   :         : 5         :                
 GND*                         : R27       :        :                   :         : 5         :                
-pma_cfg_i[2].amo_type[0]     : R28       : input  : 3.3-V LVTTL       :         : 5         : N              
-pma_cfg_i[2].amo_type[1]     : R29       : input  : 3.3-V LVTTL       :         : 5         : N              
+GND+                         : R28       :        :                   :         : 5         :                
+GND+                         : R29       :        :                   :         : 5         :                
 VCCIO5                       : R30       : power  :                   : 3.3V    : 5         :                
 VCCIO1                       : T1        : power  :                   : 3.3V    : 1         :                
 HCLK                         : T2        : input  : 3.3-V LVTTL       :         : 1         : N              
 HRESETn                      : T3        : input  : 3.3-V LVTTL       :         : 1         : N              
-ins_HRDATA[20]               : T4        : input  : 3.3-V LVTTL       :         : 1         : N              
-dbg_dati[0]                  : T5        : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_HRDATA[8]                : T6        : input  : 3.3-V LVTTL       :         : 1         : N              
-dbg_dati[8]                  : T7        : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[14]                : T8        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[13]                : T9        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : T4        :        :                   :         : 1         :                
+GND*                         : T5        :        :                   :         : 1         :                
+dbg_we                       : T6        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : T7        :        :                   :         : 1         :                
+GND*                         : T8        :        :                   :         : 1         :                
+pma_adr_i[1][19]             : T9        : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCIO1                       : T10       : power  :                   : 3.3V    : 1         :                
 GND                          : T11       : gnd    :                   :         :           :                
 VCCINT                       : T12       : power  :                   : 1.2V    :           :                
@@ -835,24 +835,24 @@ GND                          : T18       : gnd    :                   :         
 VCCINT                       : T19       : power  :                   : 1.2V    :           :                
 GND                          : T20       : gnd    :                   :         :           :                
 VCCIO6                       : T21       : power  :                   : 3.3V    : 6         :                
-ins_HWDATA[2]                : T22       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : T22       :        :                   :         : 5         :                
 GND*                         : T23       :        :                   :         : 5         :                
-dbg_addr[0]                  : T24       : input  : 3.3-V LVTTL       :         : 6         : N              
-dbg_addr[4]                  : T25       : input  : 3.3-V LVTTL       :         : 6         : N              
-ins_HRDATA[7]                : T26       : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_adr_i[2][31]             : T27       : input  : 3.3-V LVTTL       :         : 6         : N              
-ins_HRDATA[5]                : T28       : input  : 3.3-V LVTTL       :         : 6         : N              
-ins_HRDATA[13]               : T29       : input  : 3.3-V LVTTL       :         : 6         : N              
+pma_cfg_i[0].a[1]            : T24       : input  : 3.3-V LVTTL       :         : 6         : N              
+pma_cfg_i[0].a[0]            : T25       : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : T26       :        :                   :         : 6         :                
+GND*                         : T27       :        :                   :         : 6         :                
+GND*                         : T28       :        :                   :         : 6         :                
+GND*                         : T29       :        :                   :         : 6         :                
 VCCIO6                       : T30       : power  :                   : 3.3V    : 6         :                
-ins_HRDATA[30]               : U1        : input  : 3.3-V LVTTL       :         : 1         : N              
-ins_HRDATA[27]               : U2        : input  : 3.3-V LVTTL       :         : 1         : N              
-ins_HRDATA[2]                : U3        : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[22]                : U4        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HRDATA[29]               : U5        : input  : 3.3-V LVTTL       :         : 1         : N              
-ins_HRDATA[10]               : U6        : input  : 3.3-V LVTTL       :         : 1         : N              
-ins_HRDATA[11]               : U7        : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[26]                : U8        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[20]                : U9        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : U1        :        :                   :         : 1         :                
+GND*                         : U2        :        :                   :         : 1         :                
+pma_adr_i[1][14]             : U3        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][15]             : U4        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : U5        :        :                   :         : 1         :                
+pma_adr_i[1][17]             : U6        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][0]              : U7        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][18]             : U8        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][16]             : U9        : input  : 3.3-V LVTTL       :         : 1         : N              
 GND                          : U10       : gnd    :                   :         :           :                
 VCCINT                       : U11       : power  :                   : 1.2V    :           :                
 VCCINT                       : U12       : power  :                   : 1.2V    :           :                
@@ -866,24 +866,24 @@ VCCINT                       : U19       : power  :                   : 1.2V    
 VCCINT                       : U20       : power  :                   : 1.2V    :           :                
 GND                          : U21       : gnd    :                   :         :           :                
 MSEL0                        : U22       :        :                   :         : 6         :                
-dat_HADDR[12]                : U23       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HADDR[8]                 : U24       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HADDR[6]                 : U25       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : U23       :        :                   :         : 6         :                
+GND*                         : U24       :        :                   :         : 6         :                
+GND*                         : U25       :        :                   :         : 6         :                
 nSTATUS                      : U26       :        :                   :         : 6         :                
 CONF_DONE                    : U27       :        :                   :         : 6         :                
 MSEL1                        : U28       :        :                   :         : 6         :                
-dat_HPROT[1]                 : U29       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HSIZE[1]                 : U30       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : U29       :        :                   :         : 6         :                
+GND*                         : U30       :        :                   :         : 6         :                
 GND                          : V1        : gnd    :                   :         :           :                
-ins_HRDATA[14]               : V2        : input  : 3.3-V LVTTL       :         : 1         : N              
-dbg_dati[17]                 : V3        : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_HWDATA[17]               : V4        : output : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][12]             : V2        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][13]             : V3        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][28]             : V4        : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCIO1                       : V5        : power  :                   : 3.3V    : 1         :                
 GND                          : V6        : gnd    :                   :         :           :                
-dat_HWDATA[16]               : V7        : output : 3.3-V LVTTL       :         : 1         : N              
-dbg_dati[1]                  : V8        : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_HWDATA[14]               : V9        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[18]                : V10       : output : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][29]             : V7        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][9]              : V8        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][1]              : V9        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][23]             : V10       : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCINT                       : V11       : power  :                   : 1.2V    :           :                
 VCCINT                       : V12       : power  :                   : 1.2V    :           :                
 GND                          : V13       : gnd    :                   :         :           :                
@@ -894,26 +894,26 @@ GND                          : V17       : gnd    :                   :         
 GND                          : V18       : gnd    :                   :         :           :                
 VCCINT                       : V19       : power  :                   : 1.2V    :           :                
 VCCINT                       : V20       : power  :                   : 1.2V    :           :                
-dat_HWDATA[25]               : V21       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[21]               : V22       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HWRITE                   : V23       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[22]               : V24       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : V21       :        :                   :         : 6         :                
+GND*                         : V22       :        :                   :         : 6         :                
+GND*                         : V23       :        :                   :         : 6         :                
+GND*                         : V24       :        :                   :         : 6         :                
 GND                          : V25       : gnd    :                   :         :           :                
 VCCIO6                       : V26       : power  :                   : 3.3V    : 6         :                
-dat_HRESP                    : V27       : input  : 3.3-V LVTTL       :         : 6         : N              
-dat_HADDR[29]                : V28       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HADDR[31]                : V29       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : V27       :        :                   :         : 6         :                
+GND*                         : V28       :        :                   :         : 6         :                
+GND*                         : V29       :        :                   :         : 6         :                
 GND                          : V30       : gnd    :                   :         :           :                
-dbg_dati[6]                  : W1        : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[4]                 : W2        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[3]                 : W3        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HWDATA[15]               : W4        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[5]                 : W5        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[0]                 : W6        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[3]                 : W7        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[19]                : W8        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HSEL                     : W9        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[24]                : W10       : output : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][20]             : W1        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][2]              : W2        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][6]              : W3        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][8]              : W4        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][3]              : W5        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][5]              : W6        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_cfg_i[1].mem_type[1]     : W7        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][4]              : W8        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][21]             : W9        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][6]              : W10       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND                          : W11       : gnd    :                   :         :           :                
 VCCINT                       : W12       : power  :                   : 1.2V    :           :                
 VCCINT                       : W13       : power  :                   : 1.2V    :           :                
@@ -924,26 +924,26 @@ VCCINT                       : W17       : power  :                   : 1.2V    
 VCCINT                       : W18       : power  :                   : 1.2V    :           :                
 VCCINT                       : W19       : power  :                   : 1.2V    :           :                
 GND                          : W20       : gnd    :                   :         :           :                
-pma_cfg_i[2].ri              : W21       : input  : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[23]               : W22       : output : 3.3-V LVTTL       :         : 6         : N              
-pma_cfg_i[2].r               : W23       : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : W21       :        :                   :         : 6         :                
+GND*                         : W22       :        :                   :         : 6         :                
+pma_adr_i[0][31]             : W23       : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : W24       :        :                   :         : 6         :                
-dat_HWDATA[24]               : W25       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : W25       :        :                   :         : 6         :                
 GND*                         : W26       :        :                   :         : 6         :                
-ins_HWDATA[22]               : W27       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : W27       :        :                   :         : 6         :                
 GND*                         : W28       :        :                   :         : 6         :                
-dat_HSIZE[0]                 : W29       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HTRANS[1]                : W30       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HADDR[27]                : Y1        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[28]                : Y2        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[25]                : Y3        : output : 3.3-V LVTTL       :         : 1         : N              
-dat_HADDR[30]                : Y4        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[16]                : Y5        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[2]                 : Y6        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[4]                 : Y7        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[15]                : Y8        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[14]                : Y9        : output : 3.3-V LVTTL       :         : 1         : N              
-ins_HADDR[9]                 : Y10       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : W29       :        :                   :         : 6         :                
+GND*                         : W30       :        :                   :         : 6         :                
+pma_adr_i[1][22]             : Y1        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][4]              : Y2        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][10]             : Y3        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[1][27]             : Y4        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][7]              : Y5        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_cfg_i[0].mem_type[0]     : Y6        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][28]             : Y7        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][27]             : Y8        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][15]             : Y9        : input  : 3.3-V LVTTL       :         : 1         : N              
+pma_adr_i[0][16]             : Y10       : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCIO1                       : Y11       : power  :                   : 3.3V    : 1         :                
 VCCINT                       : Y12       : power  :                   : 1.2V    :           :                
 VCCINT                       : Y13       : power  :                   : 1.2V    :           :                
@@ -954,13 +954,13 @@ VCCINT                       : Y17       : power  :                   : 1.2V    
 VCCINT                       : Y18       : power  :                   : 1.2V    :           :                
 GND                          : Y19       : gnd    :                   :         :           :                
 VCCIO6                       : Y20       : power  :                   : 3.3V    : 6         :                
-pma_adr_i[0][25]             : Y21       : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_cfg_i[0].mem_type[0]     : Y22       : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_cfg_i[1].m               : Y23       : input  : 3.3-V LVTTL       :         : 6         : N              
-pma_cfg_i[1].x               : Y24       : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : Y21       :        :                   :         : 6         :                
+GND*                         : Y22       :        :                   :         : 6         :                
+GND*                         : Y23       :        :                   :         : 6         :                
+GND*                         : Y24       :        :                   :         : 6         :                
 GND*                         : Y25       :        :                   :         : 6         :                
-pma_cfg_i[2].wi              : Y26       : input  : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[10]               : Y27       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_HWDATA[9]                : Y28       : output : 3.3-V LVTTL       :         : 6         : N              
-ins_HWDATA[3]                : Y29       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : Y26       :        :                   :         : 6         :                
+GND*                         : Y27       :        :                   :         : 6         :                
+GND*                         : Y28       :        :                   :         : 6         :                
+GND*                         : Y29       :        :                   :         : 6         :                
 GND*                         : Y30       :        :                   :         : 6         :                

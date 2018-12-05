@@ -1,10 +1,10 @@
 
-State Machine - |riscv_top_ahb3lite|riscv_core:core|riscv_ex:ex_units|riscv_div:div|state
+State Machine - |topo|riscv_top_ahb3lite:rv12|riscv_core:core|riscv_ex:ex_units|riscv_div:div|state
 Name state.ST_CHK state.ST_RES state.ST_DIV 
 state.ST_CHK 0 0 0 
 state.ST_DIV 1 0 1 
 state.ST_RES 1 1 0 
 
-State Machine - |riscv_top_ahb3lite|riscv_core:core|riscv_ex:ex_units|riscv_lsu:lsu|state
+State Machine - |topo|riscv_top_ahb3lite:rv12|riscv_core:core|riscv_ex:ex_units|riscv_lsu:lsu|state
 Name 
 state.IDLE 
